@@ -63,7 +63,33 @@ h3 {
 }
 
 /* index styles */
+.blogs a {
+    display: block;
+    margin: 40px 0;
+    padding-left: 30px;
+    border-left: 5px solid crimson;
+}
+.blogs a:hover .title {
+    color: crimson;
+}
 /* details styles */
+.details {
+    position: relative;
+    max-width: 800px;
+}
+.delete {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 4px crimson;
+}
+.delete:hover {
+    cursor: pointer;
+    background-color: darkgoldenrod;
+    font-weight: bolder;
+}
 /* create styles */
 .create-blog form {
     max-width: 400px;
